@@ -5,11 +5,11 @@
 body, main {
     /*border: 4px #011F26 solid;*/
     min-height: 50px;
-    margin: 1.10rem;
+    /*margin: 1.10rem;*/
 }
 
 body {
-    background-color: #f0f4f5;    
+    background-color: #031418;    
 }
 
 html {
@@ -19,69 +19,57 @@ html {
 
 
 footer, header {
-min-height: 5%;
+min-height: 40%;
 }
 
 
 header {
-background-color: #ffff;
-box-shadow:0 0 0.5rem #F2668B;
 font-family: 'Franklin Gothic Medium';
 font-size: large;    
-margin: 0.5rem;
+background: #ffff;
+margin:0px 0px 10px 0px;
+padding:0px;
+border: 4px #2b2728 solid;
 
 
 }
 
-footer{
-background: #fcfdfc;   
-margin: 0.5rem; 
-box-shadow:0 0 0.5rem #423c3e;
-
+footer {
+font-family: 'Franklin Gothic Medium';
+font-size: large;    
+background: #ffff;
+border: 4px #2b2728 solid;
+border-top:#031418;
+margin: 0px 0px 10px 0px;
 }
+
+
+
+
 
 
 main>div {
-    background-color: #fcfdfc;
-    min-height: 180px;
-    font-family: "Helvetica Neue",'Franklin Gothic Medium';    
-    
-}
-.contenido-sec{
-    background-color:#03A688;
-    padding: 1px;
-    margin-left: 10px;
-    min-height: 180px;
-    
+    background-color: #ffff
     
 }
 
-.secciones {
-    background-color: #F2668B;
-    min-height: 50px;
-    margin: 0.5rem;
-    font-family: "Helvetica Neue",'Franklin Gothic Medium';
-    text-align: center;
-    box-shadow:0 0 0.5rem #720933;
-
-}
-    
+ 
 .recuadro {
     background-color: #0e0105;
-    min-height: 50px;
-    margin: 0.5rem;
+    min-height: 300px;
+    margin: 2.16rem;
     font-family: "Helvetica Neue",'Franklin Gothic Medium';
     text-align: center;
     box-shadow:0 0 0.5rem #720933;
-
+    padding:auto;
 }
     
 
 img {
-    max-width: 50%;
+    width: 100%;
+    height: 100%;
 
     }
-
 
 
 h1 {
@@ -102,18 +90,22 @@ h3 {
 }
 
 p {
-    color: #f7fbfc 
-}
-
-.frase {
+    color: #f9fafa;
     font-style: italic;
+  
+}
+    
+.negro{
+
+    color:#110408;
+
 }
 
 
 .header-logo {
     height: 4%;
     display: inline-block;
-    margin:0.5rem;
+  
         
 }
 
@@ -147,21 +139,11 @@ p {
 }
 
 .header-menubar a:hover {
-    color: #F2668B;
+    color:#868a8a;
 }
 
-.instagram-media {
-    width: auto;
-    display: inline-block;
-    margin:0.5rem;
-       
-}
 
-.form-contacto {
-    width: 100%;
-    height: auto;
 
-}
 
 .icon {
     width:6%;
@@ -174,8 +156,7 @@ p {
 .icon-instagram {
     width:2%;
     height: 2%;
-    padding-left: 95%;
-
+    padding-left: 90%;
 
     
 }
@@ -184,11 +165,8 @@ p {
     font-style: normal;
     color:#011F26;
     font-family:"Helvetica Neue",'Franklin Gothic Medium';
-    float:left;
-    padding-left: auto;
-    margin-left: 2%;
-    padding-bottom: 2%;
-    
+    text-align: right;
+    padding-right: 0.5%;
 }
 
 .radiocut {
@@ -200,14 +178,63 @@ p {
     height: 30%;
 }
 
-main {
+
+
+
+.cajas {
+    background:#ffff;
     display:grid;
-    grid-template-columns: repeat(2,500px);
-    grid-gap: 40px;
-
+    grid-template-columns: repeat(3,400px);
+    grid-gap:40px;
+    padding: 10px 0px 10px 10px;
+    border: 4px #2b2728 solid;
     
+   
+    
+
 }
 
-.cartel {
-    color:#011F26;
+.cajas2 {
+    background:#ffff;
+    display:grid;
+    grid-template-columns: repeat(3,400px);
+    grid-gap:20px;
+    padding: 0px 0px 0px -20px;
+    border: 4px #2b2728 solid;
+    
+
 }
+
+.caja {
+    width: 100%;
+    height: auto;
+    background: #03A688;
+    margin-left:10px;
+    margin-right: 10px;
+    min-width: 400px;
+    padding: auto;
+       
+}
+
+.caja2 {
+    width:100%;
+    background:#ffff;
+    display:grid;
+    grid-template-columns: repeat(3,400px);
+    grid-gap:40px; 
+    padding: 10px 0px 10px 10px;
+
+
+}
+
+
+.caja_blanca {
+    width: auto;
+    height: auto;
+    background: #ffff;
+    margin-left:auto;
+    min-width: 400px;
+    grid-auto-columns: minmax(1,3)       
+}
+
+
